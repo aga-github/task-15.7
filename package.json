@@ -4,7 +4,6 @@
   "description": "15.7. Stoper Timer",
   "main": "script.js",
   "scripts": {
-    "server": "http-server",
     "start": "babel script.js --out-file script-compiled.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +22,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
     "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "babel-preset-react": "^6.24.1"
   }
 }
